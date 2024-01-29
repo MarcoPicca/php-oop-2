@@ -1,7 +1,10 @@
 <?php
 
 include 'db.php';
-include_once 'Products/Product.php';
+include_once __DIR__ . '/Models/Category.php';
+include_once __DIR__ . '/Models/Food.php';
+include_once __DIR__ . '/Models/Kennel.php';
+include_once __DIR__ . '/Models/Toy.php';
 
 ?>
 
@@ -57,7 +60,9 @@ include_once 'Products/Product.php';
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item"><?php echo $product->category; ?></li>
+ 
                         <li class="list-group-item"><?php echo $product->type; ?></li>
+                        
                         <li class="list-group-item"><?php echo $product->price; ?></li>
                     </ul>
                 </div>

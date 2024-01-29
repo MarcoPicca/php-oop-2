@@ -1,5 +1,6 @@
 <?php
 
+
 class Product {
     public $img;
     public $title;
@@ -10,7 +11,7 @@ class Product {
     public $id;
     
 
-    public function __construct($_img, $_title, $_description, $_price, $_category, $_type) {
+    public function __construct($_img, string $_title, string $_description, $_category, $_price,  $_type) {
         $this->img = $_img;
         $this->title = $_title;
         $this->description = $_description;

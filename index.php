@@ -59,7 +59,7 @@ include_once __DIR__ . '/Models/Toy.php';
                         <p><?php echo $product->description; ?></p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><?php echo $product->category; ?></li>
+                        <li class="list-group-item"><?php echo $product->category->name; ?></li>
  
                         <li class="list-group-item"><?php echo $product->type; ?></li>
                         

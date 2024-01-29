@@ -62,6 +62,7 @@ include_once __DIR__ . '/Models/Toy.php';
                         <li class="list-group-item"><?php echo $product->category->name; ?></li>
  
                         <li class="list-group-item"><?php echo $product->type; ?></li>
+
                         
                         <li class="list-group-item"><?php echo $product->price; ?></li>
                     </ul>
